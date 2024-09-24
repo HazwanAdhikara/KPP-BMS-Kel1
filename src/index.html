@@ -1,112 +1,129 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="../dist/output.css" rel="stylesheet" />
-    <title>Document</title>
-    <script src="https://cdn.jsdelivr.net/npm/theme-change@2.0.2/index.js"></script>
-  </head>
-  <body>
-    <nav class="navbar absolute bg-primary text-primary-content">
-      <div class="navbar-start">
-        <div class="dropdown">
-          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M4 6h16M4 12h8m-8 6h16"
-              />
-            </svg>
-          </div>
-          <ul
-            tabindex="0"
-            class="menu dropdown-content menu-sm z-[1] mt-3 w-52 rounded-box bg-base-100 p-2 shadow"
-          >
-            <li><a>About us</a></li>
-            <li><a>Our Works</a></li>
-          </ul>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="../dist/output.css" rel="stylesheet" />
+  <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/npm/theme-change@2.0.2/index.js"></script>
+</head>
+
+<body class="bg-base-200">
+  <nav class="navbar absolute bg-primary text-primary-content">
+    <div class="navbar-start">
+      <div class="dropdown">
+        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+          </svg>
         </div>
-        <a class="btn btn-ghost text-xl">daisyUI</a>
-      </div>
-      <div class="navbar-end hidden lg:flex">
-        <ul class="menu menu-horizontal px-1">
+        <ul tabindex="0" class="menu dropdown-content menu-sm z-[1] mt-3 w-52 rounded-box bg-base-100 p-2 shadow">
           <li><a>About us</a></li>
           <li><a>Our Works</a></li>
         </ul>
       </div>
-      <div class="navbar-end">
-        <select
-          data-choose-theme
-          class="select max-w-xs rounded-md border border-primary-content bg-primary text-primary-content"
-        >
-          <option disabled selected>Themes</option>
-          <option value="light">Light</option>
-          <option value="cupcake">Cupcake</option>
-          <option value="bumblebee">Bumblebee</option>
-          <option value="emerald">Emerald</option>
-          <option value="corporate">Corporate</option>
-          <option value="synthwave">Synthwave</option>
-          <option value="retro">Retro</option>
-          <option value="cyberpunk">Cyberpunk</option>
-          <option value="valentine">Valentine</option>
-          <option value="halloween">Halloween</option>
-          <option value="garden">Garden</option>
-          <option value="forest">Forest</option>
-          <option value="aqua">Aqua</option>
-          <option value="lofi">Lofi</option>
-          <option value="pastel">Pastel</option>
-          <option value="fantasy">Fantasy</option>
-          <option value="wireframe">Wireframe</option>
-          <option value="black">Black</option>
-          <option value="luxury">Luxury</option>
-          <option value="dracula">Dracula</option>
-          <option value="cmyk">CMYK</option>
-          <option value="autumn">Autumn</option>
-          <option value="business">Business</option>
-          <option value="acid">Acid</option>
-          <option value="lemonade">Lemonade</option>
-          <option value="night">Night</option>
-          <option value="coffee">Coffee</option>
-          <option value="winter">Winter</option>
-          <option value="dim">Dim</option>
-          <option value="nord">Nord</option>
-          <option value="sunset">Sunset</option>
-        </select>
-      </div>
-    </nav>
-    <div id="about" class="hero min-h-screen bg-base-200">
-      <div class="hero-content text-center">
-        <div class="max-w-md">
-          <h1 class="text-5xl font-bold">About us</h1>
-          <p class="py-6">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
-          </p>
-          <button class="btn btn-primary">Get Started</button>
-        </div>
+      <a class="btn btn-ghost text-xl">daisyUI</a>
+    </div>
+    <div class="navbar-end hidden lg:flex">
+      <ul class="menu menu-horizontal px-1">
+        <li><a>About us</a></li>
+        <li><a>Our Works</a></li>
+      </ul>
+    </div>
+
+    <div class="navbar-end">
+      <select data-choose-theme
+        class="select max-w-xs rounded-md border border-primary-content bg-primary text-primary-content">
+        <option disabled selected>Themes</option>
+        <option value="light">Light</option>
+        <option value="cupcake">Cupcake</option>
+        <option value="bumblebee">Bumblebee</option>
+        <option value="emerald">Emerald</option>
+        <option value="corporate">Corporate</option>
+        <option value="synthwave">Synthwave</option>
+        <option value="retro">Retro</option>
+        <option value="cyberpunk">Cyberpunk</option>
+        <option value="valentine">Valentine</option>
+        <option value="halloween">Halloween</option>
+        <option value="garden">Garden</option>
+        <option value="forest">Forest</option>
+        <option value="aqua">Aqua</option>
+        <option value="lofi">Lofi</option>
+        <option value="pastel">Pastel</option>
+        <option value="fantasy">Fantasy</option>
+        <option value="wireframe">Wireframe</option>
+        <option value="black">Black</option>
+        <option value="luxury">Luxury</option>
+        <option value="dracula">Dracula</option>
+        <option value="cmyk">CMYK</option>
+        <option value="autumn">Autumn</option>
+        <option value="business">Business</option>
+        <option value="acid">Acid</option>
+        <option value="lemonade">Lemonade</option>
+        <option value="night">Night</option>
+        <option value="coffee">Coffee</option>
+        <option value="winter">Winter</option>
+        <option value="dim">Dim</option>
+        <option value="nord">Nord</option>
+        <option value="sunset">Sunset</option>
+      </select>
+    </div>
+  </nav>
+
+  <div id="about" class="hero min-h-screen bg-base-200">
+    <div class="hero-content text-center">
+      <div class="max-w-md">
+        <h1 class="text-5xl font-bold">About us</h1>
+        <p class="py-6">
+          Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+          excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
+          a id nisi.
+        </p>
+        <button class="btn btn-primary">Get Started</button>
       </div>
     </div>
-    <div class="flex w-full flex-col border-opacity-50">
-      <div class="card grid h-20 place-items-center rounded-box bg-base-300">
-        content
-      </div>
-      <div class="divider"></div>
-      <div class="card grid h-20 place-items-center rounded-box bg-base-300">
-        content
+  </div>
+  <div class="flex justify-center bg-base-200 my-20">
+    <h3 class="font-bold text-5xl bg-base-200">Our Portfolio from Basic Media Schooling</h3>
+  </div>
+  <div class="carousel">
+    <div id="slide1" class="carousel-item relative w-full">
+      <img src="../public/atha.png" class="w-full h-1/2" />
+      <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+        <a href="#slide4" class="btn btn-circle">❮</a>
+        <a href="#slide2" class="btn btn-circle">❯</a>
       </div>
     </div>
-    <div id="ourworks">
-      <h1>Our Works</h1>
+    <div id="slide2" class="carousel-item relative w-full">
+      <img src="../public/hazwan.png" class="w-full h-1/2" />
+      <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+        <a href="#slide1" class="btn btn-circle">❮</a>
+        <a href="#slide3" class="btn btn-circle">❯</a>
+      </div>
     </div>
-  </body>
+    <div id="slide3" class="carousel-item relative w-full">
+      <img src="../public/hazwan2.png" class="w-full h-1/2" />
+      <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+        <a href="#slide2" class="btn btn-circle">❮</a>
+        <a href="#slide4" class="btn btn-circle">❯</a>
+      </div>
+    </div>
+    <div id="slide4" class="carousel-item relative w-full">
+      <img src="../public/kevin.png" class="w-full h-1/2" />
+      <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+        <a href="#slide3" class="btn btn-circle">❮</a>
+        <a href="#slide1" class="btn btn-circle">❯</a>
+      </div>
+    </div>
+    <div id="slide4" class="carousel-item relative w-full">
+      <img src="../public/tsaldia.png" class="w-full h-1/2" />
+      <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+        <a href="#slide3" class="btn btn-circle">❮</a>
+        <a href="#slide1" class="btn btn-circle">❯</a>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
