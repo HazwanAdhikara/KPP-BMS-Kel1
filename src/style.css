@@ -3362,6 +3362,57 @@ details.collapse summary::-webkit-details-marker {
   border-width: 1px;
 }
 
+.footer {
+  background-color: var(--primary); /* Matches the navbar background */
+  color: var(--primary-content); /* Matches the text color in the navbar */
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-left h2 {
+  margin-top: 0;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links a {
+  color: var(--primary-content); /* Matches text color */
+  text-decoration: none;
+}
+
+.footer-right {
+  text-align: right;
+}
+
+.logo {
+  font-size: 1.5rem; /* Consistent with Tailwind rem-based sizes */
+  font-weight: bold;
+  color: var(--primary-content);
+}
+
+.company-name {
+  font-weight: bold;
+  margin: 0.25rem 0;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 1px;
+  font-size: 0.8em;
+  color: var(--primary-content); /* Copyright text color */
+}
+
 @media (min-width: 1024px) {
   .lg\:flex {
     display: flex;
