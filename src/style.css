@@ -3363,8 +3363,8 @@ details.collapse summary::-webkit-details-marker {
 }
 
 .footer {
-  background-color: var(--primary); /* Matches the navbar background */
-  color: var(--primary-content); /* Matches the text color in the navbar */
+  background-color: var(--primary);
+  color: var(--primary-content);
   padding: 20px;
 }
 
@@ -3373,6 +3373,8 @@ details.collapse summary::-webkit-details-marker {
   justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
+  margin-top: 50px;
+  border-top: 5px solid var(--primary);
 }
 
 .footer-left h2 {
@@ -3387,7 +3389,7 @@ details.collapse summary::-webkit-details-marker {
 }
 
 .footer-links a {
-  color: var(--primary-content); /* Matches text color */
+  color: var(--primary-content);
   text-decoration: none;
 }
 
@@ -3396,7 +3398,7 @@ details.collapse summary::-webkit-details-marker {
 }
 
 .logo {
-  font-size: 1.5rem; /* Consistent with Tailwind rem-based sizes */
+  font-size: 1.5rem;
   font-weight: bold;
   color: var(--primary-content);
 }
@@ -3410,7 +3412,7 @@ details.collapse summary::-webkit-details-marker {
   text-align: center;
   margin-top: 1px;
   font-size: 0.8em;
-  color: var(--primary-content); /* Copyright text color */
+  color: var(--primary-content);
 }
 
 @media (min-width: 1024px) {
