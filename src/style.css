@@ -3373,8 +3373,6 @@ details.collapse summary::-webkit-details-marker {
   justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
-  margin-top: 50px;
-  border-top: 5px solid var(--primary);
 }
 
 .footer-left h2 {
@@ -3394,7 +3392,7 @@ details.collapse summary::-webkit-details-marker {
 }
 
 .footer-right {
-  text-align: right;
+  text-align: center;
 }
 
 .logo {
